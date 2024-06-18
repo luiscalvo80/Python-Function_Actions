@@ -17,7 +17,7 @@ def github_actions(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
+        return func.HttpResponse(f"Hello, {name}")
     else:
         return func.HttpResponse(
              "is going to be Super fine.",
