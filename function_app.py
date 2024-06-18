@@ -20,6 +20,6 @@ def github_actions(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}")
     else:
         return func.HttpResponse(
-             "is going to be Super fine.",
+             "Goodbyemessage ",
              status_code=200
         )
