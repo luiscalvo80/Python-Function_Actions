@@ -17,7 +17,7 @@ def github_actions(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        return func.HttpResponse(f"Hello, {name}")
+        return func.HttpResponse(f"Hello sir, {name}")
     else:
         return func.HttpResponse(
              "Goodbyemessage ",
